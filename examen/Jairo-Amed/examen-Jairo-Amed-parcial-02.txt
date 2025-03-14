@@ -1,0 +1,61 @@
+ 
+
+Sección 1: Preguntas de opción múltiple
+1. ¿Cuál es el comando para clonar un repositorio desde GitHub?
+a) git copy <URL>
+b) git clone <URL> <-----
+c) git fork <URL>
+d) git pull <URL>
+
+2. ¿Qué comando se usa para ver el estado de los archivos en Git?
+a) git check
+b) git status <-----
+c) git log
+d) git diff
+
+3. ¿Cuál es el comando para añadir archivos al área de preparación (staging area)?
+a) git stage <archivo>
+b) git commit <archivo>
+c) git add <archivo> <-----
+d) git push <archivo>
+
+4. ¿Cuál es el comando para confirmar (commit) cambios en Git?
+a) git push
+b) git commit -m "mensaje" <-------
+c) git save -m "mensaje"
+d) git send "mensaje"
+
+5. ¿Qué comando se usa para enviar los cambios al repositorio remoto?
+a) git push origin <rama> <--------
+b) git send <rama>
+c) git upload <rama>
+d) git commit <rama>
+
+Sección 2: Verdadero o Falso
+6. git pull descarga cambios del repositorio remoto y los fusiona automáticamente en la rama actual. (V/F): V
+
+7. git fetch es lo mismo que git pull. (V/F): F
+
+8. Si haces git push sin haber hecho git add y git commit, tus cambios locales se subirán automáticamente. (V/F): F
+
+9. Un archivo en estado "untracked" significa que ya está en la base de datos de Git. (V/F): F
+
+Sección 3: Comandos y escenarios
+10. Escribe los comandos para hacer lo siguiente:
+
+a) Inicializar un repositorio Git en una carpeta existente:
+git init
+
+b) Agregar todos los archivos modificados y hacer un commit con el mensaje "Primer commit":
+git add .
+git commit -m "commit"
+
+c) Conectar un repositorio local a un repositorio remoto en GitHub:
+git remote add origin "https://github.com/AdrianesDev/ProgramacionWEB.git"
+
+d) Subir los cambios de la rama main a GitHub:
+git push origin main
+
+e) Descargar cambios de la rama main desde GitHub y fusionarlos con tu código local:
+git pull origin main
+
