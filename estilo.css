@@ -1,0 +1,25 @@
+/* Selector de etiqueta */
+body {
+    background-color: beige;
+}
+/* Selector de clase */
+.Titulo {
+    font-size: 20px;
+}
+/* Selector de ID */
+#Titulo {
+    font-size: 40px;
+    color: brown;
+}
+/* Selector universal */
+* {
+ padding: 30px;   
+}
+/* Selectores combinados */
+.Tarjeta {
+    border: 6px solid black;
+    padding: 10px;
+}
+.Tarjeta img {
+   border-radius: 50px; 
+}
