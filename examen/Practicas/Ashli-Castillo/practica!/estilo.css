@@ -1,0 +1,29 @@
+.contenedor-tarjeta {
+    background: white; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    border: 2px solid #ddd; /* Borde delgado y sutil */
+    padding: 20px; /* Espaciado interno */
+    width: 250px; /* Tamaño fijo para cada tarjeta */
+    text-align: center; /* Centra el contenido */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera para efecto de elevación */
+    font-family: Arial, sans-serif; /* Fuente más estilizada */
+    margin: 20px auto; /* Centrar la tarjeta */
+}
+.contenedor-tarjeta img {
+    width: 150px; /* Ancho de la imagen */
+    height: 150px; /* Alto de la imagen */
+    border-radius: 50%; /* Imagen completamente redonda */
+    object-fit: cover; /* Evita que la imagen se deforme */
+    border: 3px solid #120334; /* Borde alrededor de la imagen */
+}
+.redes ul a{
+    color: #20044fc6; /* Color de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    text-align: center;
+}
+.redes ul a:hover {
+    background: #767578; /* Cambio de color al pasar el mouse */
+}
+h1{
+    color: #1e0656;
+}

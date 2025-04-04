@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    text-align: center;
+}
+.recuadro {
+    width: 80%; /* Ancho del recuadro */
+    padding: 20px; /* Espaciado interno */
+    border: 2px solid #333; /* Borde del recuadro */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    text-align: center; /* Centrar el texto */
+    margin: 20px auto; /* Centrar en la página */
+}
+.recuadro:hover {
+    background-color: #d6d1c9; /* Cambia a un tono más oscuro */
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3);
+}
+a:hover {
+    color: #5f554d; /* Oscurece un poco */
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333; /* Fondo oscuro */
+    color: white; /* Texto en blanco */
+    text-align: center; /* Centrado */
+    padding: 15px 0; /* Espaciado interno */
+    position: fixed; /* Fijar en la parte inferior */
+    bottom: 0;
+    width: 100%; /* Ancho completo */
+    font-size: 25px;
+}

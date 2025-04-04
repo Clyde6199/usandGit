@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: block;
+}
+
+header {
+    background-color: #3585da;
+    color: white;
+    padding: 1rem;
+}
+
+#inicio {
+    margin-bottom: 2rem;
+}
+
+#servicios {
+    background-color: #f5f5f5;
+}
+
+.servicio {
+    width: 80%;
+    margin: 1%;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: rgb(191, 191, 191);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.servicio:hover {
+    transform: scale(1.05);
+    background-color: #ddd;
+}
+
+.servicio h3 {
+    color: #333;
+}
+
+.servicio p {
+    color: #666;
+}
+
+h1 {
+    margin: 0;
+    padding: 1rem 0;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+footer {
+    
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

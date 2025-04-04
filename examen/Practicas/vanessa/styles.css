@@ -1,0 +1,23 @@
+.cuadro {
+    width: 350px;         /* Ancho del recuadro */
+    height: 550px;        /* Alto del recuadro */
+    /*border: 3px  black;   Borde negro */
+    padding: 20px;        /* Espaciado interno */
+    text-align: center;   /* Alineación del texto */
+    margin: 50px auto;    /* Centrar horizontalmente */
+    background-color: #bdbdbda4; /* Color de fondo */
+    border-radius: 10%;
+    
+}
+#parrafos {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+img {
+    border-radius: 50%;
+}
